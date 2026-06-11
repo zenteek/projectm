@@ -20,6 +20,10 @@ library.
 Its purpose in life is to read an audio input and to produce mesmerizing visuals, detecting tempo, and rendering
 advanced equations into a limitless array of user-contributed visualizations.
 
+### Zenteek Modifications
+
+The shipped projectM is upstream v4.1.6 plus a one-line patch (FFT equalize disabled, see `zenteek/build-projectm.sh`)
+
 ### Important: This repository only contains libprojectM for use in application development!
 
 This repository now only contains the projectM shared/static library. All frontends, plug-ins and other tools were
